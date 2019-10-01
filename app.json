@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/landing/landing",
+    "pages/index/index",
+    "pages/shop/shop",
+    "pages/category/category",
+    "pages/favorites/favorites"
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFE",
+    "borderStyle": "black",
+    "selectedColor": "#D03232",
+    "color": "#131313",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home-selected.png",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "image/search.png",
+        "selectedIconPath": "image/search-selected.png",
+        "text": "Search"
+      },
+      {
+        "pagePath": "pages/favorites/favorites",
+        "iconPath": "image/favorites.png",
+        "selectedIconPath": "image/favorites-selected.png",
+        "text": "Favorites"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
