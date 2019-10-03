@@ -1,2 +1,18 @@
 <!--pages/shop/shop.wxml-->
 <text>pages/shop/shop.wxml</text>
+<view class = "container">
+<block wx:for="{{shops}}">
+  <image src = "{{shops.image_url}}"></image>
+  <text>{{shops.name}}</text>
+  <text>{{shops.address}}</text>
+  <text>{{shops.address_cn}}</text>
+  <view class = "description">
+  <text>{{shops.description}}</text>
+  </view>
+  <view class = "description">
+  <text>{{shops.description_cn}}</text>
+  </view>
+  <text>Open Hours: {{shops.open_time}} - {{shops.close_time}}</text>
+  <text>Contact: {{shops.phone}}</text>
+</block>
+</view>

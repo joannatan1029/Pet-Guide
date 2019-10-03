@@ -3,7 +3,7 @@
 <button bindtap = "goToShop"> Go To Shop</button>
 <view class = "container">
 <block wx:for="{{shops}}" wx:for-item = "shop" wx:key="id">
-  <view class="card">
+  <view class="card" bindtap ="goToShop">
     <image src = "{{shop.image_url}}"></image>
     <view class = "cardtext">
     <text>{{shop.name}}</text>
